@@ -1,7 +1,8 @@
 @import "utils";
 @import "fonts";
+@import "reset";
 @import "typography";
+@import "./animations";
 
-body {
-  background: $c-gray;
-}
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
