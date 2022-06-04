@@ -1,7 +1,20 @@
 @import "utils";
 @import "fonts";
+@import "reset";
 @import "typography";
+@import "./animations";
 
-body {
-  background: $c-gray;
-}
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/main-sections";
+@import "./blocks/move";
+@import "./blocks/compare";
+@import "./blocks/card";
+@import "./blocks/details";
+@import "./blocks/button";
+@import "./blocks/contact";
+@import "./blocks/form";
+@import "./blocks/source";
+@import "./blocks/footer";
