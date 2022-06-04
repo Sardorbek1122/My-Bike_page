@@ -62,6 +62,7 @@
       font-family: "Poppins", sans-serif;
       color: #292929;
       transition: $transitionDuration;
+
     }
 
     &:hover::before {
@@ -98,6 +99,15 @@
 
   @media (max-width: $tabletWidth) {
     padding: 36px 72px 19vh;
+
+    &__call {
+
+      margin-right: 15px;
+
+      &::before {
+        top: 115%;
+      }
+    }
 
     &__content {
       @include fontParams (64px, 100%, 700);
